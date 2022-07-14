@@ -1,0 +1,85 @@
+center {
+  display: block;
+  text-align: -webkit-center;
+}
+.google-resimi > img {
+  width: 351px;
+  height: 115px;
+}
+.clear {
+  clear: both;
+}
+
+.search-tamami {
+  background-color: rgba(0, 0, 0, 0.081);
+}
+.search-tamami > input {
+  margin: 8px;
+  width: 500px;
+  height: 15px;
+}
+.uclu-sidebar {
+  display: flex;
+  width: 100%;
+  height: 110px;
+  font-size: medium;
+}
+.uclu-sidebar > .first-sidebar {
+  width: 37%;
+  background-color: rgb(126, 229, 218);
+  margin: 0.2%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 10px;
+}
+.uclu-sidebar > .sec-sidebar {
+  width: 26%;
+  background-color: rgb(112, 204, 194);
+  margin: 0.2%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 10px;
+}
+.uclu-sidebar > .third-sidebar {
+  width: 37%;
+  background-color: rgb(98, 179, 170);
+  margin: 0.2%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 10px;
+}
+
+.uclu-sidebar > .first-sidebar > ul {
+  float: left;
+  margin: 20px;
+}
+.uclu-sidebar > .sec-sidebar > ul {
+  float: left;
+}
+.uclu-sidebar > .first-sidebar > ul > li {
+  list-style-type: none;
+}
+.uclu-sidebar > .sec-sidebar > ul > li {
+  list-style-type: none;
+}
+.uclu-sidebar > .third-sidebar > li {
+  list-style-type: none;
+  padding: 1px;
+}
+
+.uclu-sidebar > .third-sidebar > .yanyana {
+  display: inline-block;
+  float: left;
+  padding: 1px;
+}
+.footer {
+  margin-top: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: small;
+}
